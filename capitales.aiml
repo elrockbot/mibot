@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+  <!-- CAPITALES -->
+  
+  
+    <category>
+  <pattern>CAPITAL DE <set>capitales</set></pattern>
+      <template>LA CAPITAL DE <star/> ES <map name="capitales"><star/></map></template>
+  </category>
+  
+      <category>
+  <pattern>CUAL ES LA CAPITAL DE <set>capitales</set></pattern>
+      <template>LA CAPITAL DE <star/> ES <map name="capitales"><star/></map></template>
+  </category>
+  
+      <category>
+  <pattern>Y LA CAPITAL DE <set>capitales</set></pattern>
+      <template>LA CAPITAL DE <star/> ES <map name="capitales"><star/></map></template>
+  </category>
+  
+      <category>
+  <pattern>Y LA DE <set>capitales</set></pattern>
+      <template>LA CAPITAL DE <star/> ES <map name="capitales"><star/></map></template>
+  </category>
+  
+  
+    <category>
+  <pattern>CAPITAL DE *</pattern>
+      <template><star/> NO ES UN ESTADO DE LA REPUBLICA.</template>
+  </category>
+  
+        <category>
+  <pattern>CUAL ES LA CAPITAL DE *</pattern>
+      <template><star/> NO ES UN ESTADO DE LA REPUBLICA.</template>
+  </category>
+  
+      <category>
+  <pattern>Y LA CAPITAL DE *</pattern>
+      <template><star/> NO ES UN ESTADO DE LA REPUBLICA.</template>
+  </category>
+  
+      <category>
+  <pattern>Y LA DE *</pattern>
+      <template><star/> NO ES UN ESTADO DE LA REPUBLICA.</template>
+  </category>
+  
+  
+  
+  
+  
+</aiml>
