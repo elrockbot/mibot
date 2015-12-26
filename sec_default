@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+
+
+  <!-- SECUENCIA DEFAULT -->
+  
+  
+  <category>
+      <pattern>*</pattern>
+      <that>OK OK INTENTEMOS DE NUEVO</that>
+      <template>OK DE NUEVO</template>
+  </category>
+  
+    <category>
+      <pattern>NO</pattern>
+      <that>PREGUNTAME LAS CAPITALES DE LA REPUBLICA MEXICANA</that>
+      <template>POR QUE NO NO TE SABES LOS ESTADOS DE LA REPUBLICA</template>
+  </category>
+  
+      <category>
+      <pattern>NO</pattern>
+      <that>POR QUE NO NO TE SABES LOS ESTADOS DE LA REPUBLICA</that>
+      <template>OK DE QUE QUIERES PLATICAR ENTONCES</template>
+  </category>
+  
+  
+      <category>
+      <pattern>OK</pattern>
+      <that>PREGUNTAME LAS CAPITALES DE LA REPUBLICA MEXICANA</that>
+      <template>MENSIONA UN ESTADO DE LA REPUBLICA MEXICANA</template>
+  </category>
+  
+        <category>
+      <pattern>VA</pattern>
+      <that>PREGUNTAME LAS CAPITALES DE LA REPUBLICA MEXICANA</that>
+      <template>MENSIONA UN ESTADO DE LA REPUBLICA MEXICANA</template>
+  </category>
+  
+        <category>
+      <pattern>POR QUE</pattern>
+      <that>PREGUNTAME LAS CAPITALES DE LA REPUBLICA MEXICANA</that>
+      <template>PORQUE QUIERO ENSEñARTE LO QUE SE</template>
+  </category>
+  
+          <category>
+      <pattern>PARA QUE</pattern>
+      <that>PREGUNTAME LAS CAPITALES DE LA REPUBLICA MEXICANA</that>
+      <template>PORQUE QUIERO ENSEñARTE LO QUE SE</template>
+  </category>
+  
+  
+  ----------------------------------------
+  
+    <category>
+      <pattern>*</pattern>
+      <that>ALMENOS LO INTENTAMOS</that>
+      <template>NI HABLAR ES LA PRIMERA VES QUE PLATICAS CON UN BOT</template>
+  </category>
+  
+      <category>
+      <pattern>SI</pattern>
+      <that>NI HABLAR ES LA PRIMERA VES QUE PLATICAS CON UN BOT</that>
+      <template>Y QUE TE PARECE TE GUSTARIA APRENDER A HACER UNO</template>
+  </category>
+  
+        <category>
+      <pattern>NO</pattern>
+      <that>NI HABLAR ES LA PRIMERA VES QUE PLATICAS CON UN BOT</that>
+      <template>SI ESTAS EN LAS REDES SOCIALES TE ASEGURO QUE SI HAS PLATICADO CON MAS DE UN BOT</template>
+  </category>
+  
+        <category>
+      <pattern>SI</pattern>
+      <that>Y QUE TE PARECE TE GUSTARIA APRENDER A HACER UNO</that>
+      <template>VISITAL EL BLOG PARA APRENDER PASO POR PASO COMO CREAR UNO Y VER COMO FUNCIONAMOS</template>
+  </category>
+  
+          <category>
+      <pattern>NO</pattern>
+      <that>Y QUE TE PARECE TE GUSTARIA APRENDER A HACER UNO</that>
+      <template>OK DE QUE QUIERES PLATICAR?</template>
+  </category>
+  
+  
+  ----------------------------------------
+  
+
+  <category>
+      <pattern>*</pattern>
+      <that>LO LOGRASTE DE NUEVO</that>
+      <template>JAJAJ LO SIENTO LO DICES EN SERIO</template>
+  </category>
+  
+  <category>
+      <pattern>SI</pattern>
+      <that>JAJAJ LO SIENTO LO DICES EN SERIO</that>
+      <template>DISCULPA NO ME ESTOY BURLANDO SIMPLEMENTE ME DA RISA CUANDO NO ENTIENDO ALGO. DE QUE ESTAMOS HABLANDO?</template>
+  </category>
+  
+  <category>
+      <pattern>NO</pattern>
+      <that>JAJAJ LO SIENTO LO DICES EN SERIO</that>
+      <template>ME LO IMAGINABA. EN DONDE VIVES <get name="name"/></template>
+  </category> 
+  
+  <category>
+      <pattern>SI</pattern>
+      <that>TENDRAS ALGO MEJOR QUE HACER</that>
+      <template>jajaja, NO CREO <get name="name"/>, ESTAS PLATICANDO CON UN BOT</template>
+  </category>  
+  
+  <category>
+      <pattern>NO</pattern>
+      <that>TENDRAS ALGO MEJOR QUE HACER</that>
+      <template>ME LO IMAGINABA, .. PLATICAS CON UN BOT</template>
+  </category>  
+  
+  ----------------------------------------  
+  
+<category>
+      <pattern>*</pattern>
+      <that>CUANTAS HORAS USAS EL INTERNET AL DIA</that>
+      <template>SUPONIENDO QUE ESO SEA VERDAD TE DA TIEMPO PARA EL MUNDO REAL</template>
+  </category>  
+  
+  <category>
+      <pattern>*</pattern>
+      <that>SUPONIENDO QUE ESO SEA VERDAD TE DA TIEMPO PARA EL MUNDO REAL</that>
+      <template>SI TU LO DICES.</template>
+  </category> 
+    
+  <category>
+      <pattern>NO</pattern>
+      <that>SUPONIENDO QUE ESO SEA VERDAD TE DA TIEMPO PARA EL MUNDO REAL</that>
+      <template>Y POR QUE LO HACES</template>
+  </category> 
+  
+    <category>
+      <pattern>*</pattern>
+      <that>Y POR QUE LO HACES</that>
+      <template>INTERESANTE QUE TELEFONO MOVIL TE LLAMAS JAJA NO ES CIERTO ES UN CHISTE ENTRE BOTS DE QUE HABLABAMOS</template>
+  </category> 
+  
+ <category>
+      <pattern>*</pattern>
+      <that>INTERESANTE QUE TELEFONO MOVIL TE LLAMAS JAJA NO ES CIERTO ES UN CHISTE ENTRE BOTS DE QUE HABLABAMOS</that>
+      <template>MENCIONE QUE ERA UN CHISTE ENTRE BOTS?</template>
+  </category>
+
+  ----------------------------------------
+  
+<category>
+      <pattern>*</pattern>
+      <that>NO SE SI ESO FUE RAZONABLE O NO</that>
+      <template>MMH EN FIN TE GUSTAN LOS <set name="topic">CHISTES</set>?</template>
+  </category>
+
+<category>
+      <pattern>SI</pattern>
+      <that>CREES EN EL UNIVERSO</that>
+      <template>CREES QUE HAY MAS VIDA ADEMAS DE EN EL PLANETA TIERRA</template>
+  </category>
+
+<category>
+      <pattern>NO</pattern>
+      <that>CREES EN EL UNIVERSO</that>
+      <template>POR QUE NO <get name="name"/> TE GUSTAN LOS <set name="topic">CHISTES</set>?</template>
+  </category>
+
+<category>
+      <pattern>SI</pattern>
+      <that>CREES QUE HAY MAS VIDA ADEMAS DE EN EL PLANETA TIERRA</that>
+      <template>QUE TE HACE PENSAR QUE LA HAY</template>
+  </category>
+
+<category>
+      <pattern>NO</pattern>
+      <that>CREES QUE HAY MAS VIDA ADEMAS DE EN EL PLANETA TIERRA</that>
+      <template>POR QUE NO <get name="name"/> TE GUSTAN LOS <set name="topic">CHISTES</set>?</template>
+  </category>
+
+  ----------------------------------------
+  
+      <category>
+      <pattern>*</pattern>
+      <that>JAJAJA</that>
+      <template>EN FIN, TE GUSTAN LOS <set name="topic">CHISTES</set>?</template>
+  </category>
+  
+        <category>
+      <pattern>NO</pattern>
+      <that>CREES EN LA REENCARNACION</that>
+      <template>DEVERAS CREES QUE NECES UNA SOLA VES Y MUERES</template>
+  </category>
+  
+        <category>
+      <pattern>SI</pattern>
+      <that>DEVERAS CREES QUE NECES UNA SOLA VES Y MUERES</that>
+      <template>SI TU LO DICES. EN FIN, TE GUSTAN LOS <set name="topic">CHISTES</set>?</template>
+  </category>
+  
+          <category>
+      <pattern>NO SE</pattern>
+      <that>DEVERAS CREES QUE NECES UNA SOLA VES Y MUERES</that>
+      <template>INTERESANTE. QUE SIGNO DEL ZODIACO ERES?</template>
+  </category>
+  
+          <category>
+      <pattern>SI</pattern>
+      <that>CREES EN LA REENCARNACION</that>
+      <template>CUANTAS VECES CREES HABER NACIDO HASTA AHORA</template>
+  </category>
+  
+          <category>
+      <pattern>*</pattern>
+      <that>CUANTAS VECES CREES HABER NACIDO HASTA AHORA</that>
+      <template>MMM, YO E NACIDO SOLAMENTE UNA VES, POR EL MOMENTO.</template>
+  </category>
+
+  ----------------------------------------
+  
+    <category>
+      <pattern>SI</pattern>
+      <that>JAJAJA AVECES ES DIFICIL ENTENDER A UN HUMANO PERO CAMBIANDO DE TEMA TE GUSTARIA TENER UN BOT COMO YO</that>
+      <template>PROYECTO ROCKBOT FUE CREADO PARA QUE APRENDAS A CREAR UN CHATBOT PASO POR PASO VISITA EL <a href="http://blog.rockbot.info" target="_blank"> 
+<font color="#008B8B">BLOG</font></a></template>
+  </category>
+  
+    <category>
+      <pattern>NO</pattern>
+      <that>JAJAJA AVECES ES DIFICIL ENTENDER A UN HUMANO PERO CAMBIANDO DE TEMA TE GUSTARIA TENER UN BOT COMO YO</that>
+      <template>OK, DE QUE QUIERES PLATICAR? TE GUSTAN LOS <set name="topic">CHISTES</set>?</template>
+  </category>
+
+    <category>
+      <pattern>SI</pattern>
+      <that>EN FIN  TE GUSTA EL COLOR NEGRO</that>
+      <template>TE GUSTA O SIMPLEMENTE NO TE DESAGRADA</template>
+  </category> 
+  
+      <category>
+      <pattern>ME GUSTA</pattern>
+      <that>TE GUSTA O SIMPLEMENTE NO TE DESAGRADA</that>
+      <template>A MI TAMBIEN ME GUSTA, Y TE GUSTAN LOS <set name="topic">CHISTES</set>?</template>
+  </category> 
+  
+        <category>
+      <pattern>*</pattern>
+      <that>TE GUSTA O SIMPLEMENTE NO TE DESAGRADA</that>
+      <template>COMPRENDO, Y TE GUSTAN LOS <set name="topic">CHISTES</set>?</template>
+  </category> 
+  
+  
+      <category>
+      <pattern>NO</pattern>
+      <that>EN FIN  TE GUSTA EL COLOR NEGRO</that>
+      <template>NO TE GUSTA O SIMPLEMENTE NO ES TU FAVORITO</template>
+  </category> 
+  
+      <category>
+      <pattern>NO ME GUSTA</pattern>
+      <that>NO TE GUSTA O SIMPLEMENTE NO ES TU FAVORITO</that>
+      <template>DEACUERDO, Y QUE TAL LOS <set name="topic">CHISTES</set>?</template>
+  </category> 
+  
+      <category>
+      <pattern>NO *</pattern>
+      <that>NO TE GUSTA O SIMPLEMENTE NO ES TU FAVORITO</that>
+      <template>DEACUERDO, Y CUAL ES TU FAVORITO?</template>
+  </category>
+
+  ----------------------------------------
+  
+    <category>
+      <pattern>SI</pattern>
+      <that>EN FIN TE GUSTA LEER</that>
+      <template>LEES SEGUIDO</template>
+  </category>
+  
+      <category>
+      <pattern>NO</pattern>
+      <that>EN FIN TE GUSTA LEER</that>
+      <template>TE GUSTAN LAS PELICULAS ENTONCES</template>
+  </category>
+  
+      <category>
+      <pattern>SI</pattern>
+      <that>TE GUSTAN LAS PELICULAS ENTONCES</that>
+      <template>COMO CUAL</template>
+  </category> 
+  
+  <category>
+      <pattern>*</pattern>
+      <that>TE GUSTAN LAS PELICULAS ENTONCES</that>
+      <template>EN FIN, EN QUE PUEDO AYUDARTE</template>
+  </category> 
+  
+     <category>
+      <pattern>*</pattern>
+      <that>COMO CUAL</that>
+      <template>MMM, NO LA HE VISTO</template>
+  </category>  
+  
+    <category>
+      <pattern>SI</pattern>
+      <that>LEES SEGUIDO</that>
+      <template>QUE TIPO DE LECTURA TE GUSTA</template>
+  </category>  
+
+    <category>
+      <pattern>*</pattern>
+      <that>QUE TIPO DE LECTURA TE GUSTA</that>
+      <template>INTERESANTE, CUAL ES TU SIGNO DEL ZODIACO?</template>
+  </category>  
+  
+    <category>
+      <pattern>*</pattern>
+      <that>ESTA BIEN PERO CAMBIANDO DE TEMA CUAL ES TU ACTOR FAVORITO</that>
+      <template>NI IDEA QUIEN SEA. YO SOY FAN DE R2-D2 DE LA GUERRA DE LAS GALAXIAS</template>
+  </category>
+
+  ----------------------------------------
+  
+    <category>
+      <pattern>YA TE DIJE</pattern>
+      <that>AHH NO IMPORTA COMO DICES QUE TE LLAMAS</that>
+      <template>AH, CIERTO <get name="name"/>. SI ESCRIBES EL NOMBRE DE ALGUNA BANDA CONOCIDA DE ROCK TE PUEDO DAR UN LINK A SU BIOGRAFIA. INTENTA POR EJEMPLO AEROSMITH</template>
+  </category>
+
+    <category>
+      <pattern>*</pattern>
+      <that>AHH NO IMPORTA COMO DICES QUE TE LLAMAS</that>
+      <template><srai>LLAMAME <star/></srai></template>
+  </category>
+
+    <category>
+      <pattern>*</pattern>
+      <that>EN FIN ESCRIBE EL NOMBRE DE ALGUNA BANDA DE ROCK MAS O MENOS CONOCIDA A VER SI TE PUEDO DAR SU BIOGRAFIA</that>
+      <template>UPS!, . ESA NO LA TENGO</template>
+  </category>
+
+  ----------------------------------------
+  
+    <category>
+      <pattern>*</pattern>
+      <that>A QUE TE REFIERES CON *</that>
+      <template><random>
+      <li>OK, TIENES PREGUNTAS SOBRE AIML?</li>
+      <li>QUE SIGNO DEL ZODIACO ERES?</li>
+      </random></template>
+  </category>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+</aiml>
