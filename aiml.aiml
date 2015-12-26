@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+
+
+                             <!-- AIML -->
+  
+  
+<category>
+<pattern>AIML</pattern>
+<template><set name="topic">AIML</set> SIGNIFICA Artificial Intelligence Markup Language Y FUE INVENTADO POR Dr. Richard S. Wallace. QUIERES SABER MAS?</template>
+</category>
+
+<category>
+<pattern>_ AIML</pattern>
+<template><srai>AIML</srai></template>
+</category>
+
+
+<topic name="aiml">
+
+<category>
+<pattern>SI</pattern>
+<template>QUE NECESITAS SABER EXACTAMENTE?</template>
+</category>
+
+<category>
+<pattern>OK</pattern>
+<template>QUE NECESITAS SABER EXACTAMENTE?</template>
+</category>
+
+<category>
+<pattern>NO</pattern>
+<template>DE ACUERDO, DE QUE QUIERES PLATICAR ENTONCES?<set name="topic"></set></template>
+</category>
+
+
+
+
+
+</topic>
+</aiml>
