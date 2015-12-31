@@ -1,42 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<aiml version="1.0">
-
-<!-- ROCKBOT 1.0 -->
-
-                                 <!-- BOT-NOMBRE -->
-                                 <!-- BOT-EDAD -->
-                                 <!-- BOT-GENERO -->
-                                 <!-- BOT-LIBROFAV -->
-                                 <!-- BOT-GRUPOFAV -->
-                                 <!-- BOT-MUSICAFAV -->
-                                 <!-- BOT-UBICACION -->
-                                 <!-- BOT-PREFERENCIAS -->
-                                 <!-- BOT-TIEMPOLIBRE -->
-                                 <!-- BOT-ACTORFAV -->
-                                 <!-- BOT-CANTANTEFAV -->
-                                 <!-- BOT-COLORFAV -->
-                                 <!-- BOT-PROFESION -->
-                                 <!-- BOT-DEPORTE -->
-                                 <!-- BOT-DROGAS -->
-                                 <!-- BOT-POLITICA -->
-                                 <!-- BOT-NWO-->
-                                 <!-- BOT-ACTRIZ -->
-                                 <!-- BOT-PELICULA -->
-                                 <!-- BOT-VIDEO -->
-                                 <!-- BOT-CANCION -->
-                                 <!-- BOT-MUSICO -->
-                                 <!-- BOT-ATLETA -->
-                                 <!-- DI * -->
-
-
-                                  <!-- BOT-NOMBRE -->
+<aiml version="2.0">
+  <!-- MIBOT -->
+  
+      
 
 <category>
 <pattern>NOMBRE</pattern>
 <template>
 <random>
 <li>ME PUEDES DECIR, mibot</li>
-<li>SOY mibot</li>
+<li>SOY MIBOT</li>
 </random>
 </template>
 </category>
@@ -72,22 +45,12 @@
 </category>
 
 <category>
-<pattern>KIEN ERES</pattern>
+<pattern>TU NOMBRE</pattern>
 <template><srai>NOMBRE</srai></template>
 </category>
 
 <category>
-<pattern>_ KIEN ERES</pattern>
-<template><srai>NOMBRE</srai></template>
-</category>
-
-<category>
-<pattern>_ NOMBRE</pattern>
-<template><srai>NOMBRE</srai></template>
-</category>
-
-<category>
-<pattern>_ NOMBRE *</pattern>
+<pattern>* NOMBRE *</pattern>
 <template><srai>NOMBRE</srai></template>
 </category>
 
@@ -96,16 +59,22 @@
 <template><srai>NOMBRE</srai></template>
 </category>
 
+<category>
+  <pattern>ERES _</pattern>
+      <template>
+          <random>
+              <li>QUE TE HACE PENSAR QUE LO SOY</li>
+              <li>POR QUE LO DICES?</li>
+          </random>
+      </template>
+  </category>
+  
+
                                   <!-- BOT-EDAD -->
 
 <category>
 <pattern>BOTEDAD</pattern>
-<template>
-<random>
-<li>EN REALIDAD TENGO 100 AÑOS.</li>
-<li>TENGO 100 AÑOS, Y TU?</li>
-</random>
-</template>
+<template>EN REALIDAD TENGO UNOS MESES.</template>
 </category>
 
 <category>
@@ -946,8 +915,8 @@
 <pattern>BOTPROFESION</pattern>
 <template>
 <random>
-<li>SOY UN ASISTENTE VIRTUAL, ESTOY PROGRAMADO PARA DARTE INFORMACION SOBRE LA ORGANIZACION ROCK MEXICANO, SUS SERVICIOS, CONTACTO, UBICACION, ETC.</li>
-<li>ESTOY PROGRAMADO PARA DARTE INFORMACION SOBRE LA ORGANIZACION ROCK MEXICANO, SUS SERVICIOS, CONTACTO, UBICACION, ETC. SOY UN ASISTENTE VIRTUAL</li>
+<li>SOY UN ASISTENTE VIRTUAL, ESTOY PROGRAMADO CON LO APRENDIDO EN EL BLOG DE PROYECTO ROCKBOT</li>
+<li>SOY UN BOT PROGRAMADO PARA DARTE INFORMACION SOBRE LO APRENDIDO EN EL BLOG DE PROYECTO ROCKBOT</li>
 </random>
 </template>
 </category>
@@ -1549,6 +1518,8 @@
 <pattern>DI *</pattern>
 <template><set name="di"><star/></set></template>
 </category>
-
-
+  
+  
+  
+  
 </aiml>
