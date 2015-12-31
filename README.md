@@ -1,5 +1,6 @@
 # mibot
-AIML en Español  Spanish AIML.
+AIML en Español  Spanish AIML
+
 mibot fué creado con lo enseñado en el blog de rockbot.info en el transcurso del 2015
 
 Por el momento mibot:
