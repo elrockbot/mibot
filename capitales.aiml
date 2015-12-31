@@ -4,24 +4,51 @@
   
   
     <category>
+  <pattern>CAPITAL DE <set>estados</set></pattern>
+      <template>LA CAPITAL DE <star/> <map name="capitales"><star/></map></template>
+  </category>
+  
+      <category>
+  <pattern>CUAL ES LA CAPITAL DE <set>estados</set></pattern>
+      <template>LA CAPITAL DE <star/> <map name="capitales"><star/></map></template>
+  </category>
+  
+      <category>
+  <pattern>Y LA CAPITAL DE <set>estados</set></pattern>
+      <template>LA CAPITAL DE <star/> <map name="capitales"><star/></map></template>
+  </category>
+  
+      <category>
+  <pattern>Y LA DE <set>estados</set></pattern>
+      <template>LA CAPITAL DE <star/> <map name="capitales"><star/></map></template>
+  </category>
+  
+--------------------------------
+  
+      <category>
   <pattern>CAPITAL DE <set>capitales</set></pattern>
-      <template>LA CAPITAL DE <star/> ES <map name="capitales"><star/></map></template>
+      <template><star/> ES LA CAPITAL DE <map name="estados"><star/></map></template>
   </category>
   
       <category>
   <pattern>CUAL ES LA CAPITAL DE <set>capitales</set></pattern>
-      <template>LA CAPITAL DE <star/> ES <map name="capitales"><star/></map></template>
+      <template><star/>  ES LA CAPITAL DE <map name="estados"><star/></map></template>
   </category>
   
       <category>
   <pattern>Y LA CAPITAL DE <set>capitales</set></pattern>
-      <template>LA CAPITAL DE <star/> ES <map name="capitales"><star/></map></template>
+      <template><star/>  ES LA CAPITAL DE <map name="estados"><star/></map></template>
   </category>
   
       <category>
   <pattern>Y LA DE <set>capitales</set></pattern>
-      <template>LA CAPITAL DE <star/> ES <map name="capitales"><star/></map></template>
+      <template><star/> ES LA CAPITAL DE <map name="estados"><star/></map></template>
   </category>
+  
+--------------------------------
+  
+  
+  
   
   
     <category>
