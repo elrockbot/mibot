@@ -17,6 +17,13 @@
               <li><get name="name"/> QUE ESTA PASANDO CONCENTREMONOS</li>
               <li><star/>???</li>
           </random>
+          <random>
+              <li>SABIAS QUE TE PUEDO DAR LAS CAPITALES DE LOS ESTADOS DE LA REPUBLICA MEXICANA. MENSIONA UN ESTADO Y TE DOY SU CAPITAL CON TODO Y MAPA.</li>
+              <li>TAMBIEN ME SE ALGUNOS <set name="topic">CHISTES</set>, TE CUENTO UNO?</li> 
+              <li>QUE SIGNO DEL ZODIACO ERES?</li>
+              <li>TE INTERESARIA APRENDER A PROGRAMAR <set name="topic">AIML</set>, PARA CREAR UN BOT COMO YO?</li>
+              <li>SABIAS QUE TENGO EN MI BASE DE DATOS MAS DE 120 LINKS A LAS BIOGRAFIAS DE MUSICOS DE RENOMBRE Y OTROS NO TANTO EN ESPAñOL E INGLES?</li>
+          </random>
       </template>
   </category>
   
