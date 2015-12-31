@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+  <!-- IMAGENES -->
+  
+<category>
+<pattern>MEXICO</pattern>
+<template><a href="http://www.turismomexico.es/wp-content/uploads/2015/07/mapa_estados_mexico.png" target="_blank">
+  <img src="http://www.turismomexico.es/wp-content/uploads/2015/07/mapa_estados_mexico.png" alt="Proyecto Rockbot" style="width:220px;height:150px;border:0;"/>
+</a></template>
+</category>
+ 
+<category>
+<pattern>AGUASCALIENTES</pattern>
+<template><a href="http://espanol.mapsofworld.com/wp-content/uploads/2011/12/mapa-de-aguascalientes.jpg" target="_blank">
+  <img src="http://espanol.mapsofworld.com/wp-content/uploads/2011/12/mapa-de-aguascalientes.jpg" alt="Proyecto Rockbot" style="width:180px;height:150px;border:0;"/>
+</a></template>
+</category>
+
+<category>
+<pattern>BAJA CALIFORNIA SUR</pattern>
+<template><a href="http://espanol.mapsofworld.com/wp-content/uploads/2011/12/mapa-de-baja-california-sur.jpg" target="_blank">
+  <img src="http://espanol.mapsofworld.com/wp-content/uploads/2011/12/mapa-de-baja-california-sur.jpg" alt="Proyecto Rockbot" style="width:180px;height:150px;border:0;"/>
+</a></template>
+</category>
+
+<category>
+<pattern>BAJA CALIFORNIA</pattern>
+<template><a href="http://espanol.mapsofworld.com/wp-content/uploads/2011/12/mapa-de-baja-california.jpg" target="_blank">
+  <img src="http://espanol.mapsofworld.com/wp-content/uploads/2011/12/mapa-de-baja-california.jpg" alt="Proyecto Rockbot" style="width:180px;height:150px;border:0;"/>
+</a></template>
+</category>
+
+<category>
+<pattern>CAMPECHE</pattern>
+<template><a href="http://espanol.mapsofworld.com/wp-content/uploads/2011/12/mapa-de-campeche.jpg" target="_blank">
+  <img src="http://espanol.mapsofworld.com/wp-content/uploads/2011/12/mapa-de-campeche.jpg" alt="Proyecto Rockbot" style="width:200px;height:150px;border:0;"/>
+</a></template>
+</category>
+
+<category>
+<pattern>CHIAPAS</pattern>
+<template><a href="http://espanol.mapsofworld.com/wp-content/uploads/2014/05/gran-mapa-de-chiapas.jpg" target="_blank">
+  <img src="http://espanol.mapsofworld.com/wp-content/uploads/2014/05/gran-mapa-de-chiapas.jpg" alt="Proyecto Rockbot" style="width:150px;height:150px;border:0;"/>
+</a></template>
+</category>
+
+<category>
+<pattern>CHIHUAHUA</pattern>
+<template><a href="http://espanol.mapsofworld.com/wp-content/uploads/2011/12/mapa-de-chihuahua.jpg" target="_blank">
+  <img src="http://espanol.mapsofworld.com/wp-content/uploads/2011/12/mapa-de-chihuahua.jpg" alt="Proyecto Rockbot" style="width:200px;height:150px;border:0;"/>
+</a></template>
+</category>
+
+<category>
+<pattern>CIUDAD DE MEXICO</pattern>
+<template><a href="http://espanol.mapsofworld.com/wp-content/uploads/2012/01/mapa-del-distrito-federal-mexico.jpg" target="_blank">
+  <img src="http://espanol.mapsofworld.com/wp-content/uploads/2012/01/mapa-del-distrito-federal-mexico.jpg" alt="Proyecto Rockbot" style="width:180px;height:150px;border:0;"/>
+</a></template>
+</category>
+
+<category>
+<pattern>COAHUILA</pattern>
+<template><a href="http://espanol.mapsofworld.com/wp-content/uploads/2011/12/mapa-de-coahuila.jpg" target="_blank">
+  <img src="http://espanol.mapsofworld.com/wp-content/uploads/2011/12/mapa-de-coahuila.jpg" alt="Proyecto Rockbot" style="width:200px;height:150px;border:0;"/>
+</a></template>
+</category>
+
+<category>
+<pattern>COLIMA</pattern>
+<template><a href="http://espanol.mapsofworld.com/wp-content/uploads/2011/12/mapa-de-colima.jpg" target="_blank">
+  <img src="http://espanol.mapsofworld.com/wp-content/uploads/2011/12/mapa-de-colima.jpg" alt="Proyecto Rockbot" style="width:200px;height:150px;border:0;"/>
+</a></template>
+</category>
+
+<category>
+<pattern>DURANGO</pattern>
+<template><a href="http://espanol.mapsofworld.com/wp-content/uploads/2012/01/mapa-de-durango.jpg" target="_blank">
+  <img src="http://espanol.mapsofworld.com/wp-content/uploads/2012/01/mapa-de-durango.jpg" alt="Proyecto Rockbot" style="width:180px;height:150px;border:0;"/>
+</a></template>
+</category>
+
+<category>
+<pattern>GUANAJUATO</pattern>
+<template><a href="http://espanol.mapsofworld.com/wp-content/uploads/2012/01/mapa-de-guanajuato.jpg" target="_blank">
+  <img src="http://espanol.mapsofworld.com/wp-content/uploads/2012/01/mapa-de-guanajuato.jpg" alt="Proyecto Rockbot" style="width:200px;height:150px;border:0;"/>
+</a></template>
+</category>
+
+<category>
+<pattern>GUERRERO</pattern>
+<template><a href="http://espanol.mapsofworld.com/wp-content/uploads/2014/05/grande-mapa-de-guerrero.jpg" target="_blank">
+  <img src="http://espanol.mapsofworld.com/wp-content/uploads/2014/05/grande-mapa-de-guerrero.jpg" alt="Proyecto Rockbot" style="width:180px;height:150px;border:0;"/>
+</a></template>
+</category>
+
+<category>
+<pattern>HIDALGO</pattern>
+<template><a href="http://espanol.mapsofworld.com/wp-content/uploads/2014/05/grande-mapa-de-hidalgo.jpg" target="_blank">
+  <img src="http://espanol.mapsofworld.com/wp-content/uploads/2014/05/grande-mapa-de-hidalgo.jpg" alt="Proyecto Rockbot" style="width:180px;height:150px;border:0;"/>
+</a></template>
+</category>
+
+<category>
+<pattern>JALISCO</pattern>
+<template><a href="http://espanol.mapsofworld.com/wp-content/uploads/2014/05/grande-mapa-de-jalisco.jpg" target="_blank">
+  <img src="http://espanol.mapsofworld.com/wp-content/uploads/2014/05/grande-mapa-de-jalisco.jpg" alt="Proyecto Rockbot" style="width:180px;height:150px;border:0;"/>
+</a></template>
+</category>
+
+<category>
+<pattern>MICHOACAN</pattern>
+<template><a href="http://espanol.mapsofworld.com/wp-content/uploads/2014/05/grande-mapa-de-michoacan.jpg" target="_blank">
+  <img src="http://espanol.mapsofworld.com/wp-content/uploads/2014/05/grande-mapa-de-michoacan.jpg" alt="Proyecto Rockbot" style="width:180px;height:150px;border:0;"/>
+</a></template>
+</category>
+
+<category>
+<pattern>MORELOS</pattern>
+<template><a href="http://espanol.mapsofworld.com/wp-content/uploads/2012/01/mapa-de-morelos.jpg" target="_blank">
+  <img src="http://espanol.mapsofworld.com/wp-content/uploads/2012/01/mapa-de-morelos.jpg" alt="Proyecto Rockbot" style="width:180px;height:150px;border:0;"/>
+</a></template>
+</category>
+
+<category>
+<pattern>NAYARIT</pattern>
+<template><a href="http://espanol.mapsofworld.com/wp-content/uploads/2012/01/mapa-de-nayarit.jpg" target="_blank">
+  <img src="http://espanol.mapsofworld.com/wp-content/uploads/2012/01/mapa-de-nayarit.jpg" alt="Proyecto Rockbot" style="width:180px;height:150px;border:0;"/>
+</a></template>
+</category>
+
+<category>
+<pattern>NUEVO LEON</pattern>
+<template><a href="http://espanol.mapsofworld.com/wp-content/uploads/2014/05/grande-mapa-de-nuevo-leon.jpg" target="_blank">
+  <img src="http://espanol.mapsofworld.com/wp-content/uploads/2014/05/grande-mapa-de-nuevo-leon.jpg" alt="Proyecto Rockbot" style="width:180px;height:150px;border:0;"/>
+</a></template>
+</category>
+
+<category>
+<pattern>OAXACA</pattern>
+<template><a href="http://espanol.mapsofworld.com/wp-content/uploads/2012/01/mapa-de-oaxaca.jpg" target="_blank">
+  <img src="http://espanol.mapsofworld.com/wp-content/uploads/2012/01/mapa-de-oaxaca.jpg" alt="Proyecto Rockbot" style="width:180px;height:150px;border:0;"/>
+</a></template>
+</category>
+
+<category>
+<pattern>PUEBLA</pattern>
+<template><a href="http://espanol.mapsofworld.com/wp-content/uploads/2014/05/grande-mapa-de-puebla.jpg" target="_blank">
+  <img src="http://espanol.mapsofworld.com/wp-content/uploads/2014/05/grande-mapa-de-puebla.jpg" alt="Proyecto Rockbot" style="width:180px;height:150px;border:0;"/>
+</a></template>
+</category>
+
+<category>
+<pattern>QUERETARO</pattern>
+<template><a href="http://espanol.mapsofworld.com/wp-content/uploads/2012/01/mapa-de-queretaro.jpg" target="_blank">
+  <img src="http://espanol.mapsofworld.com/wp-content/uploads/2012/01/mapa-de-queretaro.jpg" alt="Proyecto Rockbot" style="width:180px;height:150px;border:0;"/>
+</a></template>
+</category>
+
+<category>
+<pattern>QUINTANA ROO</pattern>
+<template><a href="http://espanol.mapsofworld.com/wp-content/uploads/2012/01/mapa-de-quintana-roo.jpg" target="_blank">
+  <img src="http://espanol.mapsofworld.com/wp-content/uploads/2012/01/mapa-de-quintana-roo.jpg" alt="Proyecto Rockbot" style="width:180px;height:150px;border:0;"/>
+</a></template>
+</category>
+
+<category>
+<pattern>SAN LUIS POTOSI</pattern>
+<template><a href="http://espanol.mapsofworld.com/wp-content/uploads/2012/01/mapa-de-san-luis-potosi.jpg" target="_blank">
+  <img src="http://espanol.mapsofworld.com/wp-content/uploads/2012/01/mapa-de-san-luis-potosi.jpg" alt="Proyecto Rockbot" style="width:180px;height:150px;border:0;"/>
+</a></template>
+</category>
+
+<category>
+<pattern>SINALOA</pattern>
+<template><a href="http://espanol.mapsofworld.com/wp-content/uploads/2012/01/mapa-de-sinaloa.jpg" target="_blank">
+  <img src="http://espanol.mapsofworld.com/wp-content/uploads/2012/01/mapa-de-sinaloa.jpg" alt="Proyecto Rockbot" style="width:180px;height:150px;border:0;"/>
+</a></template>
+</category>
+
+<category>
+<pattern>SONORA</pattern>
+<template><a href="http://espanol.mapsofworld.com/wp-content/uploads/2011/12/mapa-de-sonora.jpg" target="_blank">
+  <img src="http://espanol.mapsofworld.com/wp-content/uploads/2011/12/mapa-de-sonora.jpg" alt="Proyecto Rockbot" style="width:180px;height:150px;border:0;"/>
+</a></template>
+</category>
+
+<category>
+<pattern>TABASCO</pattern>
+<template><a href="http://espanol.mapsofworld.com/wp-content/uploads/2012/01/mapa-de-tabasco.jpg" target="_blank">
+  <img src="http://espanol.mapsofworld.com/wp-content/uploads/2012/01/mapa-de-tabasco.jpg" alt="Proyecto Rockbot" style="width:180px;height:150px;border:0;"/>
+</a></template>
+</category>
+
+<category>
+<pattern>TAMAULIPAS</pattern>
+<template><a href="http://espanol.mapsofworld.com/wp-content/uploads/2012/01/mapa-de-tamaulipas.jpg" target="_blank">
+  <img src="http://espanol.mapsofworld.com/wp-content/uploads/2012/01/mapa-de-tamaulipas.jpg" alt="Proyecto Rockbot" style="width:150px;height:150px;border:0;"/>
+</a></template>
+</category>
+
+<category>
+<pattern>TLAXCALA</pattern>
+<template><a href="http://espanol.mapsofworld.com/wp-content/uploads/2012/01/mapa-de-tlaxcala.jpg" target="_blank">
+  <img src="http://espanol.mapsofworld.com/wp-content/uploads/2012/01/mapa-de-tlaxcala.jpg" alt="Proyecto Rockbot" style="width:180px;height:150px;border:0;"/>
+</a></template>
+</category>
+
+<category>
+<pattern>VERACRUZ</pattern>
+<template><a href="http://espanol.mapsofworld.com/wp-content/uploads/2014/05/grande-mapa-de-veracruz.jpg" target="_blank">
+  <img src="http://espanol.mapsofworld.com/wp-content/uploads/2014/05/grande-mapa-de-veracruz.jpg" alt="Proyecto Rockbot" style="width:180px;height:150px;border:0;"/>
+</a></template>
+</category>
+
+<category>
+<pattern>YUCATAN</pattern>
+<template><a href="http://espanol.mapsofworld.com/wp-content/uploads/2012/01/mapa-de-yucatan.jpg" target="_blank">
+  <img src="http://espanol.mapsofworld.com/wp-content/uploads/2012/01/mapa-de-yucatan.jpg" alt="Proyecto Rockbot" style="width:180px;height:150px;border:0;"/>
+</a></template>
+</category>
+
+<category>
+<pattern>ZACATECAS</pattern>
+<template><a href="http://espanol.mapsofworld.com/wp-content/uploads/2012/01/mapa-de-zacatecas.jpg" target="_blank">
+  <img src="http://espanol.mapsofworld.com/wp-content/uploads/2012/01/mapa-de-zacatecas.jpg" alt="Proyecto Rockbot" style="width:180px;height:150px;border:0;"/>
+</a></template>
+</category>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+</aiml>
