@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+  <!-- COLORES -->
+
+
+      <category>
+  <pattern>EL <set>colores</set> ES UN COLOR</pattern>
+      <template><star/> ES UN COLOR</template>
+  </category>
+
+
+      <category>
+  <pattern>COLOR <set>colores</set></pattern>
+      <template><star/> ES UN COLOR</template>
+  </category>
+
+
+      <category>
+  <pattern>QUE ES <set>colores</set></pattern>
+      <template><star/> ES UN COLOR</template>
+  </category>
+
+
+
+<category>
+  <pattern><set>colores</set> ES UN COLOR</pattern>
+      <template>SI <star/> ES UN COLOR</template>
+  </category>
+  
+  
+      <category>
+  <pattern>COLOR <set>colores</set> ES UN COLOR</pattern>
+      <template>SI <star/> ES UN COLOR</template>
+  </category>
+  
+        <category>
+  <pattern>EL COLOR <set>colores</set> ES UN COLOR</pattern>
+      <template>SI <star/> ES UN COLOR</template>
+  </category>
+  
+        <category>
+  <pattern>Y EL <set>colores</set></pattern>
+      <template>SI <star/> ES UN COLOR</template>
+  </category>
+  
+        <category>
+  <pattern>Y <set>colores</set></pattern>
+      <template>SI <star/> ES UN COLOR</template>
+  </category>
+  
+        <category>
+  <pattern><set>colores</set> ES COLOR</pattern>
+      <template>SI <star/> ES UN COLOR</template>
+  </category>
+  
+  
+  
+    <category>
+  <pattern>* ES UN COLOR</pattern>
+      <template>NO, <star/> NO ES UN COLOR</template>
+  </category>  
+    
+    
+    
+    
+    
+</aiml>
