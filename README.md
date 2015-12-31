@@ -15,8 +15,11 @@ Por el momento mibot:
 
 - Puede decirte por ejemplo si "amarillo" es un color o no.
 
-- Puede darte las capitales de los estados de la República Mexicana.
+- Puede darte las capitales de los estados de la República Mexicana, con mapas.
 
 - Se sabe algunos chistes, si le preguntas.
+
+- Te puede hablar un poco acerca de tu signo del zodiaco. 
+
 
 continuará ...
