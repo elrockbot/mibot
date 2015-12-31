@@ -11,7 +11,7 @@
 </category>
 
 <category>
-<pattern>_ AIML</pattern>
+<pattern>^ AIML ^</pattern>
 <template><srai>AIML</srai></template>
 </category>
 
@@ -32,6 +32,29 @@
 <pattern>NO</pattern>
 <template>DE ACUERDO, DE QUE QUIERES PLATICAR ENTONCES?<set name="topic"></set></template>
 </category>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
