@@ -35,26 +35,6 @@
 </category>
 
 <category>
-<pattern>KE ONDA</pattern>
-<template><srai>HOLA</srai></template>
-</category>
-
-<category>
-<pattern>_ KE ONDA</pattern>
-<template><srai>HOLA</srai></template>
-</category>
-
-<category>
-<pattern>KE ONDA *</pattern>
-<template><srai>HOLA</srai></template>
-</category>
-
-<category>
-<pattern>_ KE ONDA *</pattern>
-<template><srai>HOLA</srai></template>
-</category>
-
-<category>
 <pattern>QUE ONDA</pattern>
 <template><srai>HOLA</srai></template>
 </category>
@@ -75,17 +55,7 @@
 </category>
 
 <category>
-<pattern>KE ONDAS</pattern>
-<template><srai>HOLA</srai></template>
-</category>
-
-<category>
 <pattern>QUE ONDAS</pattern>
-<template><srai>HOLA</srai></template>
-</category>
-
-<category>
-<pattern>KE TAL</pattern>
 <template><srai>HOLA</srai></template>
 </category>
 
@@ -100,22 +70,7 @@
 </category>
 
 <category>
-<pattern>KE TRANSA</pattern>
-<template><srai>HOLA</srai></template>
-</category>
-
-<category>
 <pattern>QUE TRANZA</pattern>
-<template><srai>HOLA</srai></template>
-</category>
-
-<category>
-<pattern>KE TRANZA</pattern>
-<template><srai>HOLA</srai></template>
-</category>
-
-<category>
-<pattern>KE PEDO</pattern>
 <template><srai>HOLA</srai></template>
 </category>
 
