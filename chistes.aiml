@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+
+
+                     <!-- CHISTES -->
+  
+  <category>
+<pattern>CHISTES</pattern>
+<template>QUIERES QUE TE CUENTE <set name="topic">CHISTES</set>?</template>
+</category>
+
+<category>
+<pattern>_ CHISTES</pattern>
+<template><srai>CHISTES</srai></template>
+</category>
+
+<category>
+<pattern>_ CHISTE</pattern>
+<template><srai>CHISTES</srai></template>
+</category>
+
+
+<topic name="CHISTES">
+
+<category>
+<pattern>SI</pattern>
+<template><random>
+<li>Dos madres hablando:<br/>
+- ¡Dígale a su hijo que me deje de imitar!<br/>
+- Jaimito, ¡deja de hacerte el idiota!<br/>
+TE CUENTO OTRO??</li>
+<li>Un preso va y le pregunta a otro:<br/>
+- Oye, ¿y tú por qué estás aquí?.<br/>
+Y el otro va y le contesta:<br/>
+- Pues porque no me dejan salir...<br/>
+OTRO???</li>
+<li>Un ciego le pregunta a un cojo:<br/>
+- ¿Qué tal andas?<br/>
+Y el cojo le contesta:<br/>
+- Pues ya ves.<br/>
+QUE TAL OTRO</li>
+<li>Yo para adelgazar sigo la dieta de la manzana:<br/> 
+Me compré un Iphone y ya no tengo para comer.<br/>
+    QUIERES OTRO?</li>
+<li>- ¿Me da una entrada para el teatro?<br/>
+- ¿Para Los Miserables?<br/>
+-Mire, somos pobres pero respétenos.<br/>
+JEJE, OTRO?</li>
+<li>- ¿Cuál es el colmo de un zapatero?<br/>
+- Pues tener una MujerZuela...<br/>
+OTRO?, TENGO MAS</li>
+<li>- ¿Cuál es la diferencia entre un jefe y un terrorista?.<br/>
+- Con el terrorista se puede negociar.<br/>
+OTRO?</li>
+<li>- Me tienes harta Miguel ...¡solo piensas en comer!<br/>
+- ¿A qué te refieres croquetamente?<br/>
+JEJE, OTRO?</li>
+<li>¿Cuál es el colmo de un inmortal?<br/>
+Que le pongan cadena perpetua.<br/>
+JEJE, OTRO?</li>
+<li>- ¡Maestra! ¡Un niño se ha caído de la ventana!<br/>
+- ¡Qué horror!!!!... Se dice "por la ventana".<br/>
+JAJAJA, QUE TAL OTRO..</li>
+</random></template>
+</category>
+
+<category>
+<pattern>OK</pattern>
+<template><srai>SI</srai></template>
+</category>
+
+<category>
+<pattern>VA</pattern>
+<template><srai>SI</srai></template>
+</category>
+
+<category>
+<pattern>*</pattern>
+<template><srai>SI</srai> PERDON, ESO FUE UN SI O UN NO?</template>
+</category>
+
+<category>
+<pattern>NO</pattern>
+<template>DE ACUERDO, DE QUE QUIERES PLATICAR ENTONCES?<set name="topic"></set></template>
+</category>
+
+
+
+
+
+</topic>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+</aiml>
